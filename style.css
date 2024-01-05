@@ -1,0 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap";
+
+/* Root */
+:root {
+    --blue: rgb(6, 150, 239);
+    --ltblue: rgb(6, 114, 223);
+    --drkblue: rgb(0, 0, 102);
+    --blk: #000;
+    --wht: #fff;
+    
+    --lwwht: #f1f1f1;
+}
