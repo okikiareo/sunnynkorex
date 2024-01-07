@@ -36,3 +36,13 @@ a {
     background-color: rgb(185, 220, 245);
     height: 100vh;
 }
+
+/*
+.home {
+    padding-bottom: 2rem;
+    min-height: 100vh;
+    background-image: url("./img/");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
