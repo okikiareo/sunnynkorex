@@ -28,3 +28,11 @@ a {
     text-decoration: none;
 
 }
+.flex {
+    display: flex;
+    align-items: center;
+}
+.home{
+    background-color: rgb(185, 220, 245);
+    height: 100vh;
+}
