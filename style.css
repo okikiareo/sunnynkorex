@@ -76,3 +76,10 @@ a {
     background-color: var(--ltblue);
     color: var(--lwwht)  !important
 }
+
+.home_info{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: .2rem;
+}
