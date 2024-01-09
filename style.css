@@ -65,3 +65,11 @@ a {
     margin: 2rem 3rem 0 0;
 }
 
+.header a {
+    color: var(--blk);
+    font-size: 1.1rem;
+    padding-right: .4rem;
+    padding: .2rem .6rem;
+    border-radius: .4rem;
+}
+
