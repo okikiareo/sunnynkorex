@@ -72,4 +72,7 @@ a {
     padding: .2rem .6rem;
     border-radius: .4rem;
 }
-
+.cur-page{
+    background-color: var(--ltblue);
+    color: var(--lwwht)  !important
+}
