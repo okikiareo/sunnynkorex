@@ -7,7 +7,7 @@
     --drkblue: rgb(0, 0, 102);
     --blk: #000;
     --wht: #fff;
-    
+
     --lwwht: #f1f1f1;
 }
 
@@ -28,11 +28,13 @@ a {
     text-decoration: none;
 
 }
+
 .flex {
     display: flex;
     align-items: center;
 }
-.home{
+
+.home {
     background-color: rgb(185, 220, 245);
     height: 100vh;
 }
@@ -72,28 +74,32 @@ a {
     padding: .2rem .6rem;
     border-radius: .4rem;
 }
-.cur-page{
+
+.cur-page {
     background-color: var(--ltblue);
-    color: var(--lwwht)  !important
+    color: var(--lwwht) !important
 }
 
-.home_info{
+.home_info {
     justify-content: center;
     flex-direction: column;
     margin-top: 10rem;
     gap: .2rem;
 }
 
-.home_info img{
+.home_info img {
     width: 7rem;
     margin-bottom: 1rem;
 }
-.home_info h2{
+
+.home_info h2 {
     font-size: 2rem;
-    }
-    .home_info h4{
-        font-size: 1.5rem;
-        }
-        .home_info p{
-            font-size: 1.2rem;
-            }
+}
+
+.home_info h4 {
+    font-size: 1.5rem;
+}
+
+.home_info p {
+    font-size: 1.2rem;
+}
