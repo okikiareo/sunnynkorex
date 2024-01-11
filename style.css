@@ -110,7 +110,23 @@ a {
 
 /* Media Query */
 @media(max-width: 600px){
-   .navbar{
-    display: none;
+   .nav_ul{
+    /* display: none; */
+    flex-direction: column;
    } 
+   .home_info{
+    /* position: relative; */
+   }
+   .header a {
+    color: var(--blk);
+    font-size: 1.1rem;
+    padding-right: 0rem;
+    padding: 0rem 0rem;
+    border-radius: 0rem;
+    background: none;
+}
+.navbar{
+    /* position: absolute; */
+}
+
 }
