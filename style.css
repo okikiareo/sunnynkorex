@@ -61,8 +61,7 @@ a {
 } */
 .header {
     justify-content: right;
-    height: 5rem;
-    background: #eaf1f3;
+    height: 6rem;
 }
 
 .navbar {
@@ -73,6 +72,7 @@ a {
 .header a {
     color: var(--blk);
     font-size: 1.1rem;
+    margin-right: 1em;
     padding-right: .4rem;
     padding: .2rem .6rem;
     border-radius: .4rem;
@@ -113,6 +113,7 @@ a {
    .nav_ul{
     /* display: none; */
     flex-direction: column;
+    row-gap: 2rem;
    } 
    .home_info{
     /* position: relative; */
@@ -126,7 +127,10 @@ a {
     background: none;
 }
 .navbar{
-    /* position: absolute; */
+    margin-top: 10rem;
 }
-
+.cur-page {
+    background-color: none;
+    color: var(--blk) !important
+}
 }
