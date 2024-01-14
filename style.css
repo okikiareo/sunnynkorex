@@ -147,8 +147,19 @@ margin-left: 2.5rem
     }
     .header a{
         background: none;
-        /* color: var(--blk); */
     }
+    .header__menu {
+        width: 25px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .header__line {
+        width: 100%;
+        margin-bottom: 4px;
+        background-color: #50504F;
+    }
+    
 
 }
 @media(min-width:599px){
