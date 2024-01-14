@@ -117,7 +117,7 @@ margin-left: 2.5rem
 /* Media Query */
 @media(max-width: 600px){
     .header{
-        
+        height: 5rem;
     }
     .logo{
         margin-left: 1.8rem
@@ -131,7 +131,7 @@ margin-left: 2.5rem
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        margin-top: 50px;
+        margin-top: 60px;
         background-color: var(--lwwht);
     }
 
@@ -148,5 +148,11 @@ margin-left: 2.5rem
     .header a{
         background: none;
         /* color: var(--blk); */
+    }
+
+}
+@media(min-width:599px){
+    .header-menu{
+        display: none;
     }
 }
