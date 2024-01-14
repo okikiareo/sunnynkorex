@@ -60,11 +60,17 @@ a {
     z-index: 2000;
 } */
 .header {
-    justify-content: right;
+    justify-content: space-between;
     height: 6rem;
     position: relative;
+    align-items: center;
 }
-
+.logo{
+margin-left: 2.5rem
+}
+.logo img{
+    width: 1.6rem;
+}
 .navbar {
     margin-right:2rem ;
 }
@@ -110,6 +116,15 @@ a {
 
 /* Media Query */
 @media(max-width: 600px){
+    .header{
+        
+    }
+    .logo{
+        margin-left: 1.8rem
+        }
+        .logo img{
+            width: 1.6rem;
+        }
     .navbar {
         width: 90%;
         position: absolute;
