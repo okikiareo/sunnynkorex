@@ -62,10 +62,10 @@ a {
 .header {
     justify-content: right;
     height: 6rem;
+    position: relative;
 }
 
 .navbar {
-    /* margin: 2rem 3rem 0 0; */
     margin-right:2rem ;
 }
 
@@ -110,27 +110,18 @@ a {
 
 /* Media Query */
 @media(max-width: 600px){
-   .nav_ul{
-    /* display: none; */
-    flex-direction: column;
-    row-gap: 2rem;
-   } 
-   .home_info{
-    /* position: relative; */
-   }
-   .header a {
-    color: var(--blk);
-    font-size: 1.1rem;
-    padding-right: 0rem;
-    padding: 0rem 0rem;
-    border-radius: 0rem;
-    background: none;
-}
-.navbar{
-    margin-top: 10rem;
-}
-.cur-page {
-    background-color: none;
-    color: var(--blk) !important
-}
+    .navbar {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 60px;
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+    .nav_ul {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
