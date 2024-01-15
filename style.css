@@ -173,6 +173,23 @@ a {
         height: 3px;
     }
 
+    .open.header__menu {
+        position: relative;
+    }
+
+    .open.header__navb {
+        transform: translateX(0);
+    }
+
+    .open .header__line {
+        position: absolute;
+    }
+
+    .open .header__line:nth-child(1),
+    .open .header__line:nth-child(3) {
+        transition: transform 0.5s;
+    }
+
 
 }
 
