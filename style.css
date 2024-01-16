@@ -75,8 +75,14 @@ a {
     height: 6rem;
     position: relative;
     align-items: center;
-}
 
+}
+.active{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index:10000;
+
+}
 .logo img{
     width: 1.6rem;
 }
@@ -122,10 +128,15 @@ a {
     font-size: 1.2rem;
 }
  /* ABOUT  */
+ .about{
+    padding-top: 4rem;
+ }
 .about_inner{
     align-items: center;
 }
-
+.about h2{
+    text-align: center;
+}
 
 /* Media Query */
 @media(max-width: 600px) {
