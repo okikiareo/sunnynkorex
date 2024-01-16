@@ -137,10 +137,11 @@ a {
         width: 90%;
         position: absolute;
         top: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 0;
+        transform: translateX(-100%);
         margin-top: 65px;
         background-color: var(--lwwht);
+        transition: transform 800ms;
     }
 
     .nav_ul {
@@ -204,6 +205,9 @@ a {
     }
 
 
+    .open.navbar {
+        transform: translateX(0);
+    }
 
 }
 
