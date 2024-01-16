@@ -18,3 +18,14 @@ const toggleHeader = () => {
 }
 
 headerMenu.addEventListener("click", () => toggleHeader());
+
+window.onscroll = () =>{
+    if(window.scrollY > 150){
+    header.classlist.add= "active";
+   
+}
+else{
+    header.classList.remove = "active";
+  
+}
+}  
