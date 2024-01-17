@@ -248,6 +248,9 @@ a {
     .services, .about h2{
         font-size: 1.2rem;
     }
+    .section_inner {
+        padding: 0 1rem;
+    }
 }
 
 @media(min-width:599px) {
