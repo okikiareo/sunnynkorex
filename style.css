@@ -130,6 +130,7 @@ a {
  /* ABOUT  */
  .about{
     padding-top: 4rem ;
+    background: rgb(237, 244, 252);
  }
 .about_inner{
     align-items: center;
@@ -140,7 +141,17 @@ a {
     font-weight: 300;
     margin-bottom: 1rem;
 }
-
+.read {
+    text-transform:uppercase;
+    margin-top: 2rem;
+    text-align: center;
+} 
+.read a{
+     padding:.3rem .8rem;
+    border-radius: .5rem;
+    background: var(--drkblue);
+    color: #fff;
+}
 /* Media Query */
 @media(max-width: 600px) {
     .header {
@@ -226,7 +237,11 @@ a {
     .open.navbar {
         transform: translateX(0);
     }
-
+    .about_inner{
+        align-items: center;
+        padding: 0 1rem;
+    }
+    
 }
 
 @media(min-width:599px) {
