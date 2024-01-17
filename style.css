@@ -129,13 +129,16 @@ a {
 }
  /* ABOUT  */
  .about{
-    padding-top: 4rem;
+    padding-top: 4rem ;
  }
 .about_inner{
     align-items: center;
+    padding: 0 6rem;
 }
 .about h2{
     text-align: center;
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 /* Media Query */

@@ -1,6 +1,6 @@
 const headerMenu = document.querySelector("#header-menu");
 const navbarMenu = document.querySelector("#navbar");
-
+const header = document.querySelector("#header");
 const style = {
     hide: "hidden",
     show: "auto"
@@ -19,13 +19,14 @@ const toggleHeader = () => {
 
 headerMenu.addEventListener("click", () => toggleHeader());
 
-window.onscroll = () =>{
-    if(window.scrollY > 150){
-    header.classlist.add= "active";
+// window.onscroll = () =>{
+//     if(window.scrollY > 150){
+//     header.className = "header active";
    
-}
-else{
-    header.classList.remove = "active";
+// }
+// else{
+//     header.className = "header";
   
-}
-}  
+// }
+// console.log(window.scrollY)
+// }  
