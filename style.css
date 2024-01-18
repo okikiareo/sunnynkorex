@@ -156,8 +156,9 @@ a {
 .services{
     padding-top: 3rem ;
 }
-
-
+.aim_box{
+    width: 80%;
+}
 
 /* Media Query */
 @media(max-width: 600px) {
