@@ -157,8 +157,18 @@ a {
     padding-top: 3rem ;
 }
 .aim_box{
-    width: 80%;
+
 }
+.aim_box_inner{
+    width: 85%;
+    border-radius: .4rem;
+}
+.box{
+border-right: 2px solid #000;
+margin-right: 2rem;
+padding: 1rem;
+}
+
 
 /* Media Query */
 @media(max-width: 600px) {
