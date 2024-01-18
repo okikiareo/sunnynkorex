@@ -153,9 +153,15 @@ a {
     background: var(--drkblue);
     color: #fff;
 }
+/* SERVICES */
+
 .services{
     padding-top: 3rem ;
+    margin-bottom: 4rem;
 }
+
+/* 
+AIM */
 .aim_box{
 justify-content: center;
 }
@@ -177,8 +183,12 @@ flex-direction: column;
 }
 .no-box{
     border-right: none;
+    border-bottom: none;
 }
-
+.box h2{
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+}
 
 
 /* Media Query */
@@ -275,6 +285,17 @@ flex-direction: column;
     }
     .section_inner {
         padding: 0 1rem;
+    }
+    .aim_box_inner{
+flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #000;
+    }
+    .no-box{
+      border-bottom: none;
     }
 }
 
