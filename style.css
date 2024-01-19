@@ -204,6 +204,22 @@ flex-direction: column;
     padding-bottom:3rem;
   }
 
+  .contact .row{
+    display:flex;
+    flex-wrap:wrap;
+    border-radius: 2rem;
+    border: .5rem solid rgba(0,0,0,.1);
+    overflow:hidden;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    }
+    .contact .row .img{
+    flex: 1 1 40rem;
+    }
+    .contact .row .img img{
+      height:100%;
+      width:100%;
+      object-fit: cover;
+      }
 
 /* Media Query */
 @media(max-width: 600px) {
