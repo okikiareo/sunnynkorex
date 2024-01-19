@@ -241,6 +241,12 @@ flex-direction: column;
         border: .1rem solid rgba(0,0,0,.1);
         text-transform:none;
       }
+
+      .contact .row form .inputbox textarea{
+        resize:none;
+        height:15rem; 
+      }
+
 /* Media Query */
 @media(max-width: 600px) {
     .header {
