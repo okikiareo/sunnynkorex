@@ -203,19 +203,32 @@ flex-direction: column;
   .contact .heading span{
     text-align:center;
     text-transform:uppercase;
-    
     padding:1rem;
     padding-bottom:3rem;
   }
 .contact-box{
     display: flex;
-    gap: 2rem;
-    flex-wrap:wrap;
+    gap: 1rem;
+    /* flex-wrap:wrap; */
     border-radius: 2rem;
     border: .5rem solid rgba(0,0,0,.1);
     overflow:hidden;
     box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   /* width: 100%; */
 }
+
+    .contact-box .img{
+        /* flex: 1 1 40rem; */
+        }
+        .contact-box .imng img{
+            /* height:100%;
+            width:100%;
+            object-fit: cover;
+      */  } 
+.contact-box .form{
+    flex: 1 1 40rem;
+}
+
   /* .contact .row{
     display:flex;
     flex-wrap:wrap;
