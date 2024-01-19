@@ -190,6 +190,20 @@ flex-direction: column;
     font-size: 1.2rem;
 }
 
+/* Conatct */
+
+.contact{
+    padding-bottom:3rem;
+  }
+  .contact .heading span{
+    text-align:center;
+    text-transform:uppercase;
+    color:var(--orange);
+    font-size:3rem;
+    padding:1rem;
+    padding-bottom:3rem;
+  }
+
 
 /* Media Query */
 @media(max-width: 600px) {
