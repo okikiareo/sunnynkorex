@@ -191,7 +191,9 @@ flex-direction: column;
 }
 
 /* Conatct */
-
+.contact{
+    margin-bottom: 4rem;
+}
 
   .contact h3{
     font-size:1.5rem;
@@ -271,7 +273,7 @@ flex-direction: column;
 }
 .social-icons{
     gap: 2rem;
-
+margin-bottom: 2rem;
 }
 
 .social-icons a{
@@ -279,7 +281,7 @@ color: var(--blue);
 width: 44px;
 height: 44px;
 border-radius: 50%;
-border: 1px solid var(--blue);
+border: 1px solid rgb(214, 214, 214);
 justify-content: center;
 /* text-align: center;
  align-items: center; */
@@ -287,6 +289,12 @@ justify-content: center;
 .social-icons i{
     font-size: 1.2rem;
     }
+.copyright{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
 /* Media Query */
 @media(max-width: 800px){
     .btn{
