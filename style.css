@@ -368,6 +368,21 @@ flex-direction: column;
     .no-box{
       border-bottom: none;
     }
+    .contact-box{
+     /* flex-direction: column; */
+     flex-wrap: wrap;
+    }
+.contact-box .img{
+    width: 100%
+    }
+    .contact-box img{
+        width: 100%;
+        height: 100%;
+        }
+    .contact-box .form{
+        width: 100%;
+        padding: 1.2rem;
+    }
 }
 
 @media(min-width:599px) {
