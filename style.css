@@ -273,10 +273,20 @@ flex-direction: column;
     gap: 2rem;
 
 }
-.social-icons i{
-font-size: 1.5rem;
-}
 
+.social-icons a{
+color: var(--blue);
+width: 44px;
+height: 44px;
+border-radius: 50%;
+border: 1px solid var(--blue);
+justify-content: center;
+/* text-align: center;
+ align-items: center; */
+}
+.social-icons i{
+    font-size: 1.2rem;
+    }
 /* Media Query */
 @media(max-width: 800px){
     .btn{
