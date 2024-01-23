@@ -262,6 +262,21 @@ width: 60%
             border: none;
             }
 
+            /* FOOTER */
+            .footer{
+                margin-top: 3rem;
+            }
+.footer-inner{
+flex-direction: column;
+}
+.social-icons{
+    gap: 2rem;
+
+}
+.social-icons i{
+font-size: 1.5rem;
+}
+
 /* Media Query */
 @media(max-width: 800px){
     .btn{
