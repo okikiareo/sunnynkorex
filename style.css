@@ -478,8 +478,17 @@ flex-direction: column;
     .about p{
         font-size: .9rem;
     }
-    .services, .about h2 {
+    .read a {
+font-size: .9rem;
+    }
+    .contact h3 {
         font-size: 1.1rem;
+    }
+    .section_inner h2 {
+        font-size: 1.1rem;
+    }
+    .box h3{
+        font-size: 1rem;
     }
     .social-icons {
         gap: 0.8rem;
