@@ -469,6 +469,18 @@ flex-direction: column;
 }
 }
 @media(max-width: 400px){
+    .home_info img {
+        width: 5rem;
+    }
+    .home_info p {
+        font-size: .9rem;
+    }
+    .about p{
+        font-size: .9rem;
+    }
+    .services, .about h2 {
+        font-size: 1.1rem;
+    }
     .social-icons {
         gap: 0.8rem;
     }
