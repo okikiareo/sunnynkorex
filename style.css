@@ -164,6 +164,7 @@ a {
 AIM */
 .aim_box{
 justify-content: center;
+margin-left: 2rem;
 }
 .aim_box_inner{
     width: 90%;
@@ -230,7 +231,6 @@ width: 60%
     padding: 1rem o;
       }
       .contact-box form .inputbox h4{
-        /* color:var(--black); */
         padding: .5rem 0;
         font-size: 1rem;
         font-weight: 600;
@@ -283,8 +283,6 @@ height: 44px;
 border-radius: 50%;
 border: 1px solid rgb(214, 214, 214);
 justify-content: center;
-/* text-align: center;
- align-items: center; */
 }
 .social-icons i{
     font-size: 1.2rem;
@@ -469,6 +467,10 @@ flex-direction: column;
 }
 }
 @media(max-width: 400px){
+
+    .header a {
+        font-size: 1rem;
+    }
     .home_info img {
         width: 5rem;
     }
