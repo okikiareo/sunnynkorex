@@ -491,6 +491,9 @@ font-size: .9rem;
     .box h3{
         font-size: 1rem;
     }
+    .box p{
+        font-size: .9rem;
+    }
     .box{
 margin-bottom: 1rem;
     }
