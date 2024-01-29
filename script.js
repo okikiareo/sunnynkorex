@@ -30,3 +30,23 @@ headerMenu.addEventListener("click", () => toggleHeader());
 // }
 // console.log(window.scrollY)
 // }  
+
+
+
+const serviceEvent = {
+    show: "mouseenter",
+    hide: "mouseleave"
+}
+const serviceLink = document.querySelector(".service-link");
+const serviceDrop = document.querySelector(".service-drop");
+
+let serviceState;
+function serviceTogg(e) {
+    if (serviceState === true) {
+        serviceState = false;
+        serviceDrop.style.display = "none";
+    } else {
+        serviceState = true;
+        serviceDrop.style.display = "block";
+    }
+}
