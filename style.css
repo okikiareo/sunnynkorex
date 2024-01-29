@@ -75,20 +75,13 @@ li {
     z-index: 2000;
 } */
 .header {
+    padding-top: 2rem;
     justify-content: space-between;
     /* height: 6rem; */
     position: relative;
     align-items: center;
 
 }
-
-/* .has-sub {
-    flex-direction: column; 
-}
-
-.sub-menu {
-    margin-top: 3rem;
-} */
 
 .active {
     position: fixed;
@@ -109,8 +102,8 @@ li {
 
 .header a {
     color: var(--blk);
-    font-size: 1.1rem;
-    margin-right: 1em;
+    font-size: 1rem;
+    margin-right: 2em;
     padding-right: .4rem;
     padding: .2rem .6rem;
     border-radius: .4rem;
@@ -613,8 +606,11 @@ AIM */
 
 .service-link {
     position: relative;
+    margin-right: 1rem;
 }
-
+.service img{
+/* width: 15px; */
+}
 .service-drop {
     list-style: none;
     width: 100px;
@@ -631,4 +627,7 @@ AIM */
 .service-drop-list {
     padding: 0.3em 0;
     border-bottom: 1px solid #e0e5e5;
+}
+.service-drop a{
+    font-size: .8rem;
 }
