@@ -50,3 +50,15 @@ function serviceTogg(e) {
         serviceDrop.style.display = "block";
     }
 }
+
+// function serviceShow(event) {
+//     serviceDrop.style.display = "block";
+// }
+
+// function serviceHide(event) {
+//     serviceDrop.style.display = "none";
+// }
+
+serviceLink.addEventListener("click", (e) => serviceTogg(e));
+// serviceLink.addEventListener(serviceEvent.show, (e) => serviceShow(e));
+// serviceLink.addEventListener(serviceEvent.hide, (e) => serviceHide(e));
