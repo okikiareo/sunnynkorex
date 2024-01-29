@@ -50,15 +50,16 @@ function serviceTogg(e) {
         serviceDrop.style.display = "block";
     }
 }
+// Scroll window click
+function check(){
+    
+if (serviceDrop.style.display == "block"){
+    serviceDrop.style.display = "none";
+}
+}
 
-// function serviceShow(event) {
-//     serviceDrop.style.display = "block";
-// }
-
-// function serviceHide(event) {
-//     serviceDrop.style.display = "none";
-//
 
 serviceLink.addEventListener("click", (e) => serviceTogg(e));
+window.addEventListener("scroll",  () => check());
 // serviceLink.addEventListener(serviceEvent.show, (e) => serviceShow(e));
 // serviceLink.addEventListener(serviceEvent.hide, (e) => serviceHide(e));

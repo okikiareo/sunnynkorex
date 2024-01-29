@@ -627,6 +627,12 @@ AIM */
     padding: 0.3em 0;
     border-bottom: 1px solid #e0e5e5;
 }
+.service-drop-list a:hover{
+    color: var(--ltblue);
+}
+.service-drop-list:hover{
+   background: #f1f1f1;
+}
 .service-drop a{
     font-size: .8rem;
 }
