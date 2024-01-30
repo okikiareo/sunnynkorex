@@ -210,7 +210,17 @@ li {
     padding-top: 3rem;
     margin-bottom: 4rem;
 }
-
+.service-container{
+    flex-wrap: wrap;
+}
+.service-box{
+    flex-basis: 33.3%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service-box img{
+    width: 12rem;
+}
 
 /* 
 AIM */
