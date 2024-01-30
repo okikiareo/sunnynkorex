@@ -108,6 +108,41 @@ li {
     padding: .2rem .6rem;
     border-radius: .4rem;
 }
+/* sub menu */
+
+
+.service-link {
+    position: relative;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.service-drop {
+    list-style: none;
+    width: 210px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    margin-top: 2rem;
+}
+
+.service-drop-list {
+    padding: 0.3em 0;
+    border-bottom: 1px solid #e0e5e5;
+}
+.service-drop-list a:hover{
+    color: var(--ltblue);
+}
+.service-drop-list:hover{
+   background: #f1f1f1;
+}
+.service-drop a{
+    font-size: .8rem;
+}
 
 .cur-page {
     background-color: var(--ltblue);
@@ -601,38 +636,4 @@ AIM */
         font-size: .8rem;
         margin: 0 1rem;
     }
-}
-
-
-.service-link {
-    position: relative;
-    margin-right: 1rem;
-    cursor: pointer;
-}
-
-.service-drop {
-    list-style: none;
-    width: 210px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgb(236, 236, 236);
-    border-radius: 5px;
-    overflow: hidden;
-    display: none;
-    margin-top: 2rem;
-}
-
-.service-drop-list {
-    padding: 0.3em 0;
-    border-bottom: 1px solid #e0e5e5;
-}
-.service-drop-list a:hover{
-    color: var(--ltblue);
-}
-.service-drop-list:hover{
-   background: #f1f1f1;
-}
-.service-drop a{
-    font-size: .8rem;
 }
