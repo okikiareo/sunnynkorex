@@ -217,9 +217,27 @@ li {
     flex-basis: 33.3%;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid #e0e5e5;
+    padding: 2rem;
+    text-align: center;
+}
+.service-box p{
+    font-size: .9rem;
+}
+.service-box a{
+    margin-top: 1.5rem;
+    color:  var(--ltblue);
+    padding: .8rem;
+    background: #f0f0f0;
+    font-size: .9rem;
+}
+.service-box a:hover{
+    color:  #fff;
+    background: var(--ltblue);
 }
 .service-box img{
-    width: 12rem;
+    width: 11rem;
+    margin-bottom: 1rem;
 }
 
 /* 
