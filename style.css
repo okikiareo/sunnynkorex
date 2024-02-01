@@ -212,7 +212,8 @@ li {
 }
 .service-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    /* grid-template-columns: repeat(3, 1fr) ; */
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
     gap: 2rem;
 }
 .service-box{
@@ -436,7 +437,11 @@ AIM */
         border-bottom: none;
     }
 }
-
+@media(max-width: 760px){
+    .service-box img {
+        width: 8rem;
+    }
+}
 @media(max-width: 600px) {
     .header {
         height: 5rem;
@@ -669,5 +674,9 @@ AIM */
     .copyright {
         font-size: .8rem;
         margin: 0 1rem;
+    }
+    .service-box a {
+        margin-top: 1.2rem;
+        padding: 0.7rem;
     }
 }
