@@ -124,7 +124,7 @@ li {
 
 .service-drop {
     list-style: none;
-    width: 210px;
+    width: 230px;
     position: absolute;
     top: 0;
     left: 0;
@@ -470,7 +470,7 @@ AIM */
     .nav_ul {
         align-items: flex-start;
         flex-direction: column;
-        gap: .8rem;
+        gap: 1.3rem;
         padding: 1rem
     }
 
@@ -492,7 +492,7 @@ AIM */
     .header__line {
         width: 100%;
         margin-bottom: 4px;
-        background-color: #50504F;
+        background-color: #1f1f1f;
         display: block;
         height: 3px;
     }

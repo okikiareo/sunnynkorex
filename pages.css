@@ -64,7 +64,7 @@ li {
 }
 .home {
     padding-bottom: 2rem;
-    min-height: 65vh;
+    min-height: 60vh;
     background-image: url("./img/pagecover.jpg");
     background-position: top;
     background-size: cover;
@@ -111,7 +111,7 @@ li {
 
 .service-drop {
     list-style: none;
-    width: 210px;
+    width: 230px;
     position: absolute;
     top: 0;
     left: 0;
@@ -139,7 +139,7 @@ li {
 }
 .serv-heading {
     top: 15%;
-    left: 10%;
+  margin-left: 10%;
     font-size: 2.5rem;
     color: #fff;
     position: relative;
@@ -191,7 +191,7 @@ li {
     .header__line {
         width: 100%;
         margin-bottom: 4px;
-        background-color: #50504F;
+        background-color: #1b1b1b;
         display: block;
         height: 3px;
     }
@@ -221,4 +221,42 @@ li {
         transform: rotate(-45deg);
     }
 
+    .open .header__line:nth-child(2) {
+        opacity: 0;
+        transition: opacity 0.05s;
+    }
+
+
+    .open.navbar {
+        transform: translateX(0);
+    }
+    .serv-heading {
+        top: 15%;
+      margin-left: 10%;
+        font-size: 1.6rem;
+        flex-wrap: wrap;
+    }
+    .home {
+        padding-bottom: 2rem;
+        height: 35vh;
+        min-height: 35vh;
+    }
+}
+@media(min-width:599px) {
+    .header-menu {
+        display: none;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .header a {
+        font-size: 1rem;
+    }
+    .serv-heading {
+        top: 15%;
+      margin-left: 6%;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+    }
 }
