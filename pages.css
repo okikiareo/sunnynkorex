@@ -56,13 +56,15 @@ li {
 
 }
 
+
 .header-wrapper {
     justify-content: space-between;
+    
 }
 .home {
     height: 50vh;
 }
-.home {
+.home { 
     padding-bottom: 2rem;
     min-height: 60vh;
     background-image: url("./img/pagecover.jpg");
@@ -96,7 +98,22 @@ li {
     padding: .2rem .6rem;
     border-radius: .4rem;
 }
+.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: #f1f1f1;
+    padding: 1rem 0 ;
+}
+.active li{
+    color: var(--blk);
+}
+.active a{
+    color: var(--blk);
 
+}
 /* sub menu */
 .nav_ul{
     color:#fff;
@@ -149,7 +166,7 @@ li {
 
 @media(max-width: 600px) {
     .header {
-        height: 5rem;
+        height: 4rem;
     }
 
     .logo img {
@@ -240,6 +257,15 @@ li {
         padding-bottom: 2rem;
         height: 35vh;
         min-height: 35vh;
+    }
+    .header {
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        background: #f1f1f1;
+        padding: 1rem 0 ;
     }
 }
 @media(min-width:599px) {

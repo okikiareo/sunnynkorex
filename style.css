@@ -76,7 +76,15 @@ li {
     align-items: center;
 
 }
-
+.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: #f1f1f1;
+    padding: 1rem 0 ;
+}
 .header-wrapper {
     /* height: 100%; */
     justify-content: space-between;
@@ -87,15 +95,7 @@ li {
     z-index: 5000;
 }
 
-.active {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000;
-    background: #f1f1f1;
-    padding: 1rem 0 ;
-}
+
 
 .logo img {
     width: 1.8rem;

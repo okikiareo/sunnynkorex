@@ -1,6 +1,7 @@
 const headerMenu = document.querySelector("#header-menu");
 const navbarMenu = document.querySelector("#navbar");
 const header = document.querySelector(".header");
+var chevdown = document.querySelector("chevdown")
 const style = {
     hide: "hidden",
     show: "auto"
@@ -22,7 +23,7 @@ headerMenu.addEventListener("click", () => toggleHeader());
 window.onscroll = () =>{
     if(window.scrollY > 150){
     header.className = "header active";
-   
+    // navBar.style.color = "#000"
 }
 else{
     header.className = "header";
