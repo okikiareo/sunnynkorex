@@ -1,6 +1,6 @@
 const headerMenu = document.querySelector("#header-menu");
 const navbarMenu = document.querySelector("#navbar");
-const header = document.querySelector("#header");
+const header = document.querySelector(".header");
 const style = {
     hide: "hidden",
     show: "auto"
@@ -19,17 +19,17 @@ const toggleHeader = () => {
 
 headerMenu.addEventListener("click", () => toggleHeader());
 
-// window.onscroll = () =>{
-//     if(window.scrollY > 150){
-//     header.className = "header active";
+window.onscroll = () =>{
+    if(window.scrollY > 150){
+    header.className = "header active";
    
-// }
-// else{
-//     header.className = "header";
+}
+else{
+    header.className = "header";
   
-// }
-// console.log(window.scrollY)
-// }  
+}
+console.log(window.scrollY)
+}  
 
 
 
@@ -61,5 +61,3 @@ if (serviceDrop.style.display == "block"){
 
 serviceLink.addEventListener("click", (e) => serviceTogg(e));
 window.addEventListener("scroll",  () => check());
-// serviceLink.addEventListener(serviceEvent.show, (e) => serviceShow(e));
-// serviceLink.addEventListener(serviceEvent.hide, (e) => serviceHide(e));
