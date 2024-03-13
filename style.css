@@ -39,7 +39,7 @@ li {
 }
 
 .home {
-    /* background-color: rgb(185, 220, 245); */
+    /* background-olor: rgb(185, 220, 245); */
     height: 100vh;
 }
 
@@ -135,7 +135,7 @@ li {
 }
 
 .service-drop-list {
-    padding: 0.6em 0;
+    padding: 0.5em 0;
     border-bottom: 1px solid #e0e5e5;
 }
 .service-drop-list a:hover{
