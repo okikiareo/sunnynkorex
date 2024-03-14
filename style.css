@@ -107,7 +107,7 @@ li {
 
 .header a {
     color: var(--blk);
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 2em;
     padding-right: .4rem;
     padding: .2rem .6rem;
@@ -119,6 +119,7 @@ li {
     position: relative;
     margin-right: 1rem;
     cursor: pointer;
+    font-size: 1.1rem;
 }
 
 .service-drop {
@@ -145,7 +146,7 @@ li {
    background: #e7e7e7;
 }
 .service-drop a{
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .cur-page {
