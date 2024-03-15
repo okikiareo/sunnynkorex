@@ -165,6 +165,10 @@ li {
     color: #fff;
     position: relative;
 }
+h3{
+    text-transform: uppercase;
+
+}
 .wrapper {
     width: 90%;
     margin: 0 auto;
