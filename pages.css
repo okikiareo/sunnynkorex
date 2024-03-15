@@ -128,7 +128,7 @@ li {
 
 .service-drop {
     list-style: none;
-    width: 230px;
+    width: 240px;
     position: absolute;
     top: 0;
     left: 0;
@@ -137,6 +137,7 @@ li {
     overflow: hidden;
     display: none;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 .service-drop a{
     color:#000;
@@ -198,13 +199,16 @@ li {
 
     .header a {
         background: none;
+        color: var(--blk);
     }
 
     .header__menu {
         width: 25px;
         cursor: pointer;
     }
-    
+    .nav_ul {
+        color: var(--blk);
+    }
     .header__line {
         width: 100%;
         margin-bottom: 4px;
@@ -248,15 +252,15 @@ li {
         transform: translateX(0);
     }
     .serv-heading {
-        top: 15%;
+        top: 25%;
       margin-left: 10%;
         font-size: 1.6rem;
         flex-wrap: wrap;
     }
     .home {
         padding-bottom: 2rem;
-        height: 35vh;
-        min-height: 35vh;
+        height: 40vh;
+        min-height: 40vh;
     }
     .header {
         /* position: fixed; */
@@ -280,7 +284,7 @@ li {
         font-size: 1rem;
     }
     .serv-heading {
-        top: 15%;
+        top: 25%;
       margin-left: 6%;
         font-size: 1.2rem;
         flex-wrap: wrap;
