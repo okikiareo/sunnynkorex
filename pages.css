@@ -162,6 +162,36 @@ li {
     color: #fff;
     position: relative;
 }
+.wrapper {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+.section_inner {
+    align-items: center;
+    padding: 0 2rem;
+}
+.serv-inner{
+    width: 100%;
+    justify-content: space-between;
+    gap: 4rem
+}
+/* .serv-img{
+    width: 40%;
+     
+}*/
+.serv-img img{
+   max-width: 30rem;
+  max-height: 30rem; 
+   width: 20rem;
+   height: 20rem;
+    border-radius: 50%;
+}
+.serv-desc{
+    width: 60%;
+}
+
+
 
 /* MEDIA QUERY */
 
@@ -272,6 +302,8 @@ li {
         padding: 1rem 0 ;
     }
 }
+
+
 @media(min-width:599px) {
     .header-menu {
         display: none;
