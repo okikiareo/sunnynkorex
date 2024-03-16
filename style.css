@@ -387,6 +387,12 @@ AIM */
     border: none;
 }
 /* PARTNERS */
+.partners h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 .partner-inner{
     flex-wrap: wrap;
     gap: 1.5rem;
