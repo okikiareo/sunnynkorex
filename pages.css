@@ -167,7 +167,6 @@ li {
 }
 .wrapper {
     width: 90%;
-    /* max-width: 1200px; */
     margin: 0 auto;
 }
 .section_inner {
@@ -179,10 +178,7 @@ li {
     justify-content: space-between;
     gap: 4rem
 }
-/* .serv-img{
-    width: 40%;
-     
-}*/
+
 .serv-img img{
    max-width: 25rem;
   max-height: 25rem; 
@@ -390,11 +386,11 @@ flex-direction: column;
     margin-bottom: 1rem;
     font-size: 1rem;
 }
-}
+
 .address p{
    font-size: .9rem;
 }
-
+}
 
 @media(min-width:599px) {
     .header-menu {

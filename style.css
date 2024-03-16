@@ -368,7 +368,29 @@ AIM */
     border: none;
 }
 
-/* FOOTER */
+/* TOP FOOTER */
+footer{
+    background: #e7e7e7;
+    }
+    .pre-footer{
+        margin-top: 3rem;
+    background: #e7e7e7;
+    padding: 2rem 0;
+    }
+    .logo-name img{
+    width: 27rem;
+    }
+    .address p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    }
+    
+    .logo-name{
+        border-right: 1px solid #a3a3a3;
+        margin-right: 2rem;
+    }
+    
+/* BOTTOM FOOTER     */
 .footer {
     margin-top: 3rem;
 }
@@ -577,6 +599,28 @@ AIM */
         width: 100%;
         padding: 1.2rem;
     }
+    
+.prefoot{
+    flex-direction: column;
+    }
+    .prefoot img{
+        width: 20rem;
+    }
+    .logo-name{
+        border-right: none;
+        margin-bottom: 2rem;
+    }
+    .address h3{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .address p{
+       font-size: .9rem;
+    }
+    .prefoot{
+        margin: 2rem 0;
+    }
 }
 
 @media(min-width:599px) {
@@ -683,5 +727,9 @@ AIM */
     .service-box a {
         margin-top: 1.2rem;
         padding: 0.7rem;
+    }
+    
+    .prefoot img {
+        width: 14rem;
     }
 }
