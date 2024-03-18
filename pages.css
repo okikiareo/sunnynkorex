@@ -77,7 +77,7 @@ li {
     background-image: url("./img/employeetraining.jpg") !important;
     background-position: center;
 }
-
+/* BG BCK */
 
 .home::before {
     content: "";

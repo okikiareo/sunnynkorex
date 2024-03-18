@@ -514,7 +514,6 @@ footer{
     
 .about_inner{
     gap: 4rem;
-    /* width: 100%; */
     flex-direction: column;
 }
 .about_img{
