@@ -72,6 +72,12 @@ li {
     background-size: cover;
     position: relative;
 }
+/* PAGE BG IMG */
+.aboutus{
+    background-image: url("./img/employeetraining.jpg") !important;
+    background-position: center;
+}
+
 
 .home::before {
     content: "";
