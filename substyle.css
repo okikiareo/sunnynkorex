@@ -1,7 +1,7 @@
 /* ABOUT  */
 .about {
     padding: 4rem 0;
-    background: linear-gradient(30deg, #adb7c0, #6394ff) ;
+    background: linear-gradient(40deg, #bacceb, #588ec0) ;
 }
 .about_inner h2{
     color: #fff;
@@ -23,7 +23,7 @@
 }
 /* WHY CHOOSE US */
 .choose {
-margin: 0rem 4rem;
+margin: 2rem 4rem;
 }
 .choose h3{
     margin: 3rem 0;
@@ -65,4 +65,16 @@ margin: 0rem 4rem;
         font-size: 1.2rem;
     }
 
+}
+@media(max-width: 600px){
+    .choose_box img{
+        width: 10rem;
+    }
+    .choose_box{
+        padding: 0rem;
+    }
+    .choose h3{
+        margin: 2rem 0;
+        font-size: 1.2rem;
+    }
 }
