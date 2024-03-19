@@ -125,6 +125,9 @@ li {
 .service-drop {
     list-style: none;
     width: 230px;
+    border-top: 1px solid var(--ltblue);
+    border-bottom: 1px solid var(--ltblue);
+
     position: absolute;
     top: 0;
     left: 0;
@@ -245,6 +248,7 @@ align-items: flex-end;
     justify-content: space-between;
     border: 1px solid #e0e5e5;
     padding: 2rem;
+    border-radius: .8rem;
     text-align: center;
     
 }
@@ -269,7 +273,9 @@ align-items: flex-end;
     width: 11rem;
     margin-bottom: 1rem;
 }
-
+.schoolsys h4{
+    color: var(--ltblue);
+}
 /* 
 AIM */
 .aim_box {
