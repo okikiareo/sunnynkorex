@@ -77,6 +77,10 @@ li {
     background-image: url("./img/employeetraining.jpg") !important;
     background-position: center;
 }
+.portfolio{
+    background-image: url("./img/contactus.jpg") !important;
+    background-position: center;
+}
 /* BG BCK */
 
 .home::before {
@@ -259,8 +263,206 @@ margin-top: 1rem;
     text-align: center;
 }
 
+/* PARTNERS */
+.partners{
+    /* margin: 2rem 0; */
+    margin-top: 3rem;
+}
+.partners h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.partner-inner{
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.partner-inner img{
+    width: 9rem;
+}
+
+/* TOP FOOTER */
+footer{
+    background: #e7e7e7;
+    }
+    .pre-footer{
+        margin-top: 3rem;
+    background: #e7e7e7;
+    padding: 2rem 0;
+    }
+    .logo-name img{
+    width: 27rem;
+    }
+    .address p{
+    font-size: 1rem;
+    margin-top: 1rem;
+    }
+    
+    .logo-name{
+        border-right: 1px solid #a3a3a3;
+        margin-right: 2rem;
+    }
+    
+/* BOTTOM FOOTER     */
+.footer {
+    margin-top: 3rem;
+}
+
+.footer-inner {
+    flex-direction: column;
+}
+
+.social-icons {
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.social-icons a {
+    color: var(--blue);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgb(214, 214, 214);
+    justify-content: center;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+}
+
+.copyright {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+/* Conatct */
+.contact {
+    margin-bottom: 4rem;
+}
+.contact_page{
+    margin: 3rem 0;
+}
+.contact h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact p{
+text-align: center;
+margin-bottom:2rem ;
+}
+.contact .heading span {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.contact-box {
+    display: flex;
+    gap: 1rem;
+    border-radius: 2rem;
+    border: .2rem solid rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.contact-box .img {
+    width: 60%
+}
+
+.contact-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-box .form {
+    width: 60%;
+    padding: 1.2rem;
+}
+
+.contact-box form .inputbox {
+    padding: 1rem o;
+}
+
+.contact-box form .inputbox h4 {
+    padding: .5rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact-box form .inputbox input,
+.contact-box form .inputbox textarea {
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    text-transform: none;
+}
+
+.contact-box form .inputbox textarea {
+    resize: none;
+    max-height: 9rem;
+}
+
+.message ::placeholder {
+    font-size: 1rem;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: .6rem;
+    margin-bottom: 2rem;
+    background: var(--blue);
+    padding: .4rem 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
 /* MEDIA QUERY */
 
+/* Media Query */
+@media(max-width: 800px) {
+    .btn {
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-box {
+        flex-wrap: wrap;
+    }
+
+    .contact-box .img {
+        width: 100%
+    }
+
+    .contact-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-box .form {
+        width: 100%;
+    }
+
+    .btn {
+        margin-bottom: 2rem;
+    }
+    .partner-inner{
+        flex-wrap: wrap;
+        gap: 2.5rem;
+    }
+    .partner-inner img{
+        width: 8rem;
+    }
+
+}
 @media(max-width: 600px) {
     .header {
         height: 4rem;
@@ -400,6 +602,24 @@ flex-direction: column;
 .address p{
    font-size: .9rem;
 }
+
+.contact-box {
+    flex-wrap: wrap;
+}
+
+.contact-box .img {
+    width: 100%
+}
+
+.contact-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-box .form {
+    width: 100%;
+    padding: 1.2rem;
+}
 }
 
 @media(min-width:599px) {
@@ -442,6 +662,13 @@ flex-direction: column;
     .service-box a {
         margin-top: 1.2rem;
         padding: 0.7rem;
+    }
+    .contact h3 {
+        font-size: 1.1rem;
+    }
+    
+    .contact-box form .inputbox h4 {
+        font-size: .8rem;
     }
 
 }
