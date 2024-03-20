@@ -2,6 +2,7 @@ const headerMenu = document.querySelector("#header-menu");
 const navbarMenu = document.querySelector("#navbar");
 const header = document.querySelector(".header");
 var chevdown = document.querySelector(".chevdown")
+const 
 const style = {
     hide: "hidden",
     show: "auto"

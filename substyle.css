@@ -1,3 +1,6 @@
+:root{
+    --border: #b1b1b1;
+}
 /* ABOUT  */
 .about {
     padding: 4rem 0;
@@ -51,8 +54,50 @@ margin: 2rem 4rem;
 .choose_box h4{
     margin-bottom: 1.5rem;
 }
-
-
+/* Portfolio cart */
+.porfolio_container{
+    justify-content: center;
+    margin:  5rem 0;
+}
+.port_heading{
+    flex-direction: row;
+}
+.port_head{
+margin-top: -47px;
+ height: 3rem;
+ padding: 1rem;
+ background: white;
+ border-top: 1px solid var(--border);
+ border-left: 1px solid var(--border);
+ border-right: 1px solid var(--border);
+}
+.portf_imgs {
+    border: 1px solid var(--border);
+    padding: 2rem;
+}
+.portfolio_box img{
+    width: 10rem;
+    margin-right: 1.5rem;
+}
+.port_heading :hover{
+cursor: pointer;
+}
+.port_box_img{
+        display: none;
+    }
+.first{
+        border-right: 1px solid #c5c5c5;
+ }
+    /* JS */
+.insert{
+display: inline;
+}
+.remove{
+    border: none !important;
+}
+.border{
+    
+}
 /* MEDIA QUERY */
 @media(max-width: 600px){
     .about_inner {
