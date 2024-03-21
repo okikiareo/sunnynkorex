@@ -148,6 +148,9 @@ li {
     display: none;
     margin-top: 2rem;
     flex-wrap: wrap;
+    border-top: 1px solid var(--ltblue);
+    border-bottom: 1px solid var(--ltblue);
+
 }
 .service-drop a{
     color:#000;
