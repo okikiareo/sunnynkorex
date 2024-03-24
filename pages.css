@@ -150,7 +150,11 @@ li {
     flex-wrap: wrap;
     border-top: 1px solid var(--ltblue);
     border-bottom: 1px solid var(--ltblue);
-
+        display: block;
+        margin-top: 2rem;
+        visibility: hidden;
+        transform: translatey(-30px);
+        transition: all .3s ease-in; 
 }
 .service-drop a{
     color:#000;

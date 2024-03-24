@@ -2,10 +2,14 @@ const headerMenu = document.querySelector("#header-menu");
 const navbarMenu = document.querySelector("#navbar");
 const header = document.querySelector(".header");
 var chevdown = document.querySelector(".chevdown");
+var chevron = document.querySelector(".chevron");
 const partner = document.querySelector(".partner");
 const client = document.querySelector(".client");
 const partner_img = document.querySelector(".partner_img");
 const client_img = document.querySelector(".client_img");
+const mobile_menu = document.querySelector(".mobile_menu");
+
+
 // const partner = document.querySelector(".partner");
 // const partner = document.querySelector(".partner");
 
@@ -28,17 +32,17 @@ const toggleHeader = () => {
 
 headerMenu.addEventListener("click", () => toggleHeader());
 
-window.onscroll = () =>{
-    if(window.scrollY > 150 ){
-    header.className = "header active";
-   chevdown.src="/img/chevron-down.svg"
+window.onscroll = () => {
+    if (window.scrollY > 150) {
+        header.className = "header active";
+        chevdown.src = "/img/chevron-down.svg"
+    }
+    else {
+        header.className = "header";
+        chevdown.src = "/img/chevdown-wht.svg"
+    }
+    console.log(window.scrollY)
 }
-else{
-    header.className = "header";
-    chevdown.src="/img/chevdown-wht.svg"
-}
-console.log(window.scrollY)
-}  
 
 
 
@@ -53,36 +57,42 @@ let serviceState;
 function serviceTogg(e) {
     if (serviceState === true) {
         serviceState = false;
-        serviceDrop.style.display = "none";
+        serviceDrop.style.visibility = "hidden";
+        serviceDrop.style.transform = "translatey(-30px)";
+        chevron.src = "img/chevron-down.svg";
+        mobile_menu.className = "mobile_menu"
     } else {
         serviceState = true;
-        serviceDrop.style.display = "block";
+        serviceDrop.style.visibility = "visible";
+        serviceDrop.style.transform = "translatey(0)";
+        chevron.src = "img/chevron-up.svg"
+        mobile_menu.className = "mobile_menu mobile_menu_active"
     }
 }
 // Scroll window click
-function check(){
-    
-if (serviceDrop.style.display == "block"){
-    serviceDrop.style.display = "none";
-}
+function check() {
+
+    if (serviceDrop.style.display == "block") {
+        serviceDrop.style.display = "none";
+    }
 }
 
 
 serviceLink.addEventListener("click", (e) => serviceTogg(e));
-window.addEventListener("scroll",  () => check());
+window.addEventListener("scroll", () => check());
 
 // PORTFOLIO Slide
 // partner   client    partner_img    client_img
-client.addEventListener("click", function(){
-    if(client.classList.contains("client")){
+client.addEventListener("click", function () {
+    if (client.classList.contains("client")) {
         client.classList.add("border");
         partner.classList.remove("border");
         partner_img.classList.remove("insert");
         client_img.classList.add("insert")
     }
 })
-partner.addEventListener("click", function(){
-    if(partner.classList.contains("partner")){
+partner.addEventListener("click", function () {
+    if (partner.classList.contains("partner")) {
         client.classList.remove("border");
         partner.classList.add("border");
         partner_img.classList.add("insert");

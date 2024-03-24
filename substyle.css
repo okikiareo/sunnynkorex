@@ -16,7 +16,7 @@
 
 .section_inner {
     align-items: center;
-    padding: 0 6rem;
+    /* padding: 0 6rem; */
 }
 
 .section h2 {
@@ -165,3 +165,10 @@ min-height: 30rem;
     
     }
     }
+    @media(max-width: 490px){
+  
+        .portf_imgs {
+        min-height: 40rem;
+        
+        }
+        }
