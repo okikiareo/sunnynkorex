@@ -7,7 +7,6 @@
     --drkblue: rgb(0, 0, 102);
     --blk: #000;
     --wht: #fff;
-
     --lwwht: #f1f1f1;
 }
 
@@ -96,6 +95,7 @@ li {
 .home_info {
     position: relative;
     z-index: 5000;
+    color: #fff;
 }
 
 
@@ -137,7 +137,6 @@ li {
     border-radius: 5px;
     overflow: hidden;
     /* display: none; */
-
     display: block;
     margin-top: 2rem;
     visibility: hidden;
@@ -148,8 +147,6 @@ li {
     display:none ;
     transition: all 1s ease-in;
     transform: translatey(-30px);
-
-    /* visibility: hidden; */
 }
   
 .service-drop-list {
@@ -297,6 +294,7 @@ li {
 .service-box a:hover {
     color: #fff;
     background: var(--ltblue);
+    transform-origin: left 2px;
 }
 
 .service-box img {
@@ -609,7 +607,7 @@ footer {
         align-items: flex-start;
         flex-direction: column;
         gap: 1.3rem;
-        padding: 1rem
+        padding: 1.5rem
     }
 .service-drop{
     /* position: relative; */

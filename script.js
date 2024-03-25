@@ -8,6 +8,7 @@ const client = document.querySelector(".client");
 const partner_img = document.querySelector(".partner_img");
 const client_img = document.querySelector(".client_img");
 const mobile_menu = document.querySelector(".mobile_menu");
+const home_info = document.querySelector(".home_info");
 
 
 // const partner = document.querySelector(".partner");
@@ -23,8 +24,16 @@ const style = {
 const toggleHeader = () => {
     if (navbarMenu.classList.contains("open")) {
         document.body.style.setProperty("overflow", style.show);
+        // check
+        // home_info.style.visibility = "visible"; 
+        // home_info.style.position = "relative"
     } else {
         document.body.style.setProperty("overflow", style.hide);
+        // check
+        // home_info.style.visibility = "hidden";
+        // home_info.style.position = "initial"
+        
+
     }
     navbarMenu.classList.toggle("open");
     headerMenu.classList.toggle("open");
@@ -36,6 +45,7 @@ window.onscroll = () => {
     if (window.scrollY > 150) {
         header.className = "header active";
         chevdown.src = "/img/chevron-down.svg"
+        serviceState = false
     }
     else {
         header.className = "header";
@@ -72,8 +82,11 @@ function serviceTogg(e) {
 // Scroll window click
 function check() {
 
-    if (serviceDrop.style.display == "block") {
-        serviceDrop.style.display = "none";
+    if (serviceDrop.style.visibility == "visible") 
+    {
+        serviceDrop.style.visibility = "hidden";
+        chevron.src = "img/chevron-down.svg"
+        serviceState = false
     }
 }
 
