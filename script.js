@@ -55,7 +55,6 @@ window.onscroll = () => {
 }
 
 
-
 const serviceEvent = {
     show: "mouseenter",
     hide: "mouseleave"
@@ -96,6 +95,7 @@ window.addEventListener("scroll", () => check());
 
 // PORTFOLIO Slide
 // partner   client    partner_img    client_img
+
 client.addEventListener("click", function () {
     if (client.classList.contains("client")) {
         client.classList.add("border");
