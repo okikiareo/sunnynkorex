@@ -17,7 +17,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html, body {
+ /* width: 100% !important; */
+ overflow-x: hidden;
+position: relative;
+}
 body {
     font-size: var(--fs-400);
     font-family: "Poppins", sans-serif;
@@ -584,6 +588,9 @@ footer {
 }
 
 @media(max-width: 600px) {
+    /* html, body {
+        width: 100% !important;
+       } */
     .header {
         height: 4rem;
     }
