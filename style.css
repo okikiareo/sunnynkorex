@@ -19,8 +19,8 @@
 }
 html, body {
  /* width: 100% !important; */
- overflow-x: hidden;
-position: relative;
+ overflow-x: hidden !important;
+position: relative !important;
 }
 body {
     font-size: var(--fs-400);
