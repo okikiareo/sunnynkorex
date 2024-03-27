@@ -93,7 +93,7 @@ margin-top: -47px;
 justify-content: center;
 position: relative;
 z-index: -1;
-min-height: 20rem;
+min-height: 30rem;
 
 }
 .port_box_img{ 
@@ -109,7 +109,7 @@ min-height: 20rem;
          left: 0;
     }
 .portfolio_box img{
-    width: 10rem;
+    width: 12rem;
 }
 
     /* JS */
@@ -151,24 +151,23 @@ gap: 1rem;
         font-size: 1.2rem;
     }
 }
+@media(max-width: 810px){
+  
+    .portf_imgs {
+    min-height: 55rem;
+    
+    }
+}
 @media(max-width: 695px){
   
 .portf_imgs {
-min-height: 30rem;
-
+min-height: 70rem;
 }
 }
-@media(max-width: 510px){
-  
-    .portf_imgs {
-    min-height: 30rem;
-    
-    }
-    }
     @media(max-width: 490px){
   
         .portf_imgs {
-        min-height: 40rem;
+        min-height: 70rem;
         
         }
         }
