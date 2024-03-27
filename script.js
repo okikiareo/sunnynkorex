@@ -5,8 +5,12 @@ var chevdown = document.querySelector(".chevdown");
 var chevron = document.querySelector(".chevron");
 const partner = document.querySelector(".partner");
 const client = document.querySelector(".client");
+const erp = document.querySelector(".erp");
+const branding = document.querySelector(".branding");
 const partner_img = document.querySelector(".partner_img");
 const client_img = document.querySelector(".client_img");
+const erp_img = document.querySelector(".erp_img");
+const branding_img = document.querySelector(".branding_img");
 const mobile_menu = document.querySelector(".mobile_menu");
 const home_info = document.querySelector(".home_info");
 
@@ -100,15 +104,30 @@ client.addEventListener("click", function () {
     if (client.classList.contains("client")) {
         client.classList.add("border");
         partner.classList.remove("border");
+        erp.classList.remove("border");
         partner_img.classList.remove("insert");
+        erp_img.classList.remove("insert");
         client_img.classList.add("insert")
     }
 })
 partner.addEventListener("click", function () {
     if (partner.classList.contains("partner")) {
-        client.classList.remove("border");
         partner.classList.add("border");
+        client.classList.remove("border");
+        erp.classList.remove("border");
         partner_img.classList.add("insert");
+        client_img.classList.remove("insert");
+        erp_img.classList.remove("insert")
+    }
+})
+
+erp.addEventListener("click", function () {
+    if (erp.classList.contains("erp")) {
+        erp.classList.add("border");
+        client.classList.remove("border");
+        partner.classList.remove("border");
+        erp_img.classList.add("insert");
         client_img.classList.remove("insert")
+        partner_img.classList.remove("insert")
     }
 })

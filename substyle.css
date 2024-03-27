@@ -72,7 +72,7 @@ margin: 2rem 4rem;
     
     }
 .first{
-  border-right: 1px solid #c5c5c5;
+  /* border-right: 1px solid #c5c5c5; */
  }
  .border{
     border-top: 1px solid var(--border);
@@ -93,7 +93,7 @@ margin-top: -47px;
 justify-content: center;
 position: relative;
 z-index: -1;
-min-height: 30rem;
+min-height: 26rem;
 
 }
 .port_box_img{ 
@@ -109,9 +109,11 @@ min-height: 30rem;
          left: 0;
     }
 .portfolio_box img{
-    width: 12rem;
+    width: 11rem;
 }
-
+.erp_img img{
+width: 20rem;
+}
     /* JS */
 .insert{
     opacity: 1;
@@ -150,24 +152,28 @@ gap: 1rem;
         margin: 2rem 0;
         font-size: 1.2rem;
     }
+    .erp_img img{
+        width: 90%;
+        }
 }
 @media(max-width: 810px){
   
     .portf_imgs {
-    min-height: 55rem;
+    min-height: 35rem;
     
     }
 }
 @media(max-width: 695px){
   
 .portf_imgs {
-min-height: 70rem;
+min-height: 50rem;
 }
 }
     @media(max-width: 490px){
   
         .portf_imgs {
-        min-height: 70rem;
+        min-height: 40rem;
         
         }
+        
         }
