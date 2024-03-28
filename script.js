@@ -107,7 +107,9 @@ client.addEventListener("click", function () {
         erp.classList.remove("border");
         partner_img.classList.remove("insert");
         erp_img.classList.remove("insert");
-        client_img.classList.add("insert")
+        client_img.classList.add("insert");
+        branding.classList.remove("border");
+        branding_img.classList.remove("insert");
     }
 })
 partner.addEventListener("click", function () {
@@ -118,6 +120,8 @@ partner.addEventListener("click", function () {
         partner_img.classList.add("insert");
         client_img.classList.remove("insert");
         erp_img.classList.remove("insert")
+        branding.classList.remove("border");
+        branding_img.classList.remove("insert");
     }
 })
 
@@ -127,7 +131,22 @@ erp.addEventListener("click", function () {
         client.classList.remove("border");
         partner.classList.remove("border");
         erp_img.classList.add("insert");
+        client_img.classList.remove("insert");
+        partner_img.classList.remove("insert")
+        branding.classList.remove("border");
+        branding_img.classList.remove("insert");
+    }
+})
+branding.addEventListener("click", function () {
+    if (branding.classList.contains("branding")) {
+        branding.classList.add("border");
+        client.classList.remove("border");
+        erp.classList.remove("border");
+        partner.classList.remove("border");
+        erp_img.classList.remove("insert");
         client_img.classList.remove("insert")
         partner_img.classList.remove("insert")
+        branding_img.classList.add("insert");
+
     }
 })

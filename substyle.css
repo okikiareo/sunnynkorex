@@ -93,7 +93,8 @@ margin-top: -47px;
 justify-content: center;
 position: relative;
 z-index: -1;
-min-height: 26rem;
+min-height: 35rem;
+display: flex;
 
 }
 .port_box_img{ 
@@ -104,9 +105,10 @@ min-height: 26rem;
          padding: 1rem;
          position: absolute;
          width: 100%;
-         height: 100%;
+         /* height: 100%; */
          top: 0;
          left: 0;
+         margin-top: 1rem;
     }
 .portfolio_box img{
     width: 11rem;
@@ -114,6 +116,9 @@ min-height: 26rem;
 .erp_img img{
 width: 20rem;
 }
+.branding_img img{
+    width: 16rem;
+    }
     /* JS */
 .insert{
     opacity: 1;
@@ -152,28 +157,68 @@ gap: 1rem;
         margin: 2rem 0;
         font-size: 1.2rem;
     }
-    .erp_img img{
-        width: 90%;
-        }
+    
 }
 @media(max-width: 810px){
   
     .portf_imgs {
-    min-height: 35rem;
+    min-height: 51rem;
     
     }
 }
+
+@media(max-width: 1050px){
+  
+    .portf_imgs {
+    min-height: 50rem;
+    }
+    }
 @media(max-width: 695px){
   
 .portf_imgs {
-min-height: 50rem;
+min-height: 45rem;
+}
+.branding_img img{
+    width: 13rem;
 }
 }
-    @media(max-width: 490px){
-  
+    @media(max-width: 590px){
+        .port_head {
+            height: 3.5rem;
+            /* padding: .6rem; */
+            /* font-size: .7rem; */
+        }
         .portf_imgs {
-        min-height: 40rem;
-        
+        min-height: 80rem;  
+        }
         }
         
+        @media(max-width: 515px){
+            .port_head {
+                /* height: 3.5rem; */
+                font-size: .8rem;
+            }
+            .portfolio_box {
+                width: 90%;
+           }
+        }
+        @media(max-width: 410px){
+  
+            .portfolio_box {
+                 width: 100%;
+            }
+            .port_head {
+                height: 3rem;
+                font-size: 0.7rem;
+            }
+        }
+        @media(max-width: 310px){
+  
+            .portfolio_box {
+                 width: 100%;
+            }
+            .port_head {
+                height: 3rem;
+                font-size: 0.6rem;
+            }
         }
