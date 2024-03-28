@@ -28,16 +28,11 @@ const style = {
 const toggleHeader = () => {
     if (navbarMenu.classList.contains("open")) {
         document.body.style.setProperty("overflow", style.show);
-        // check
-        // home_info.style.visibility = "visible"; 
-        // home_info.style.position = "relative"
+       
     } else {
         document.body.style.setProperty("overflow", style.hide);
         
     }
-    // check
-    // home_info.style.visibility = "hidden";
-    // home_info.style.position = "initial"
 
     navbarMenu.classList.toggle("open");
     headerMenu.classList.toggle("open");
