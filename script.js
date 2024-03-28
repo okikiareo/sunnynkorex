@@ -13,7 +13,9 @@ const erp_img = document.querySelector(".erp_img");
 const branding_img = document.querySelector(".branding_img");
 const mobile_menu = document.querySelector(".mobile_menu");
 const home_info = document.querySelector(".home_info");
-const mobhead = document.querySelector(".mobhead");
+
+const mobheads = document.querySelectorAll(".mobhead");
+const mobileport = document.querySelectorAll(".mobileport_box_img");
 
 
 
@@ -31,12 +33,12 @@ const toggleHeader = () => {
         // home_info.style.position = "relative"
     } else {
         document.body.style.setProperty("overflow", style.hide);
-        // check
-        // home_info.style.visibility = "hidden";
-        // home_info.style.position = "initial"
         
-
     }
+    // check
+    // home_info.style.visibility = "hidden";
+    // home_info.style.position = "initial"
+
     navbarMenu.classList.toggle("open");
     headerMenu.classList.toggle("open");
 }
@@ -148,7 +150,22 @@ branding.addEventListener("click", function () {
 
     }
 })
-mobhead.addEventListener("click", function () {
-console.log("clicked")
-})
+
+mobheads.forEach(mobhead => {
+    mobhead.addEventListener("click", () => {
+        // Find the related mobileport_box_img element
+        const mobileport = mobhead.nextElementSibling;
+        
+        // Check if mobileport exists
+        if (mobileport && mobileport.classList.contains("mobileport_box_img")) {
+            // Remove "show" class from all .mobileport_box_img elements
+            document.querySelectorAll(".mobileport_box_img").forEach(element => {
+                element.classList.remove("show");
+            });
+
+            // Toggle the "show" class on mobileport
+            mobileport.classList.toggle("show");
+        }
+    });
+});
 
