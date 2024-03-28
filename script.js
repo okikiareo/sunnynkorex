@@ -13,10 +13,8 @@ const erp_img = document.querySelector(".erp_img");
 const branding_img = document.querySelector(".branding_img");
 const mobile_menu = document.querySelector(".mobile_menu");
 const home_info = document.querySelector(".home_info");
+const mobhead = document.querySelector(".mobhead");
 
-
-// const partner = document.querySelector(".partner");
-// const partner = document.querySelector(".partner");
 
 
 const style = {
@@ -150,3 +148,7 @@ branding.addEventListener("click", function () {
 
     }
 })
+mobhead.addEventListener("click", function () {
+console.log("clicked")
+})
+
